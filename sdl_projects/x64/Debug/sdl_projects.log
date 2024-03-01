@@ -1,0 +1,3 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (sdl_projects.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source.cpp
+  sdl_projects.vcxproj -> C:\Users\Yusuf\Desktop\SDL_PROJECTS\falling_sand_sim\x64\Debug\sdl_project_conf.exe

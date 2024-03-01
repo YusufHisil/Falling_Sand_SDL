@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yusuf\\Desktop\\SDL_PROJECTS\\falling_sand_sim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB2132B-2FCB-4FA3-B112-2E025DB897DC}|sdl_projects\\sdl_projects.vcxproj|C:\\Users\\Yusuf\\Desktop\\SDL_PROJECTS\\falling_sand_sim\\sdl_projects\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CDB2132B-2FCB-4FA3-B112-2E025DB897DC}|sdl_projects\\sdl_projects.vcxproj|solutionrelative:sdl_projects\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\Desktop\\SDL_PROJECTS\\falling_sand_sim\\sdl_projects\\Source.cpp",
+              "RelativeDocumentMoniker": "sdl_projects\\Source.cpp",
+              "ToolTip": "C:\\Users\\Yusuf\\Desktop\\SDL_PROJECTS\\falling_sand_sim\\sdl_projects\\Source.cpp",
+              "RelativeToolTip": "sdl_projects\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-29T17:02:43.323Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
