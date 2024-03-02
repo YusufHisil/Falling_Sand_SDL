@@ -10,12 +10,12 @@ bool cast = false;
 
 int main(int argc, char* argv[]) {
 
-    bool map[WIN_H / SAND+1][WIN_W / SAND+1];
+    bool map[WIN_H / SAND + 1][WIN_W / SAND + 1];
     for (int i = 0; i < WIN_H / SAND; i++)
         for (int j = 0; j < WIN_W / SAND; j++) map[i][j] = false;
 
     int mouseX, mouseY;
-    SDL_Rect particle{0,0,SAND,SAND};
+    SDL_Rect particle{ 0,0,SAND,SAND };
 
 
     // Initialize SDL
@@ -56,9 +56,9 @@ int main(int argc, char* argv[]) {
 
         if (cast) {
             SDL_GetMouseState(&mouseX, &mouseY);
-            map[mouseY / SAND][mouseX / SAND] = 
-                map[mouseY / SAND+1][mouseX / SAND+1] =
-                map[mouseY / SAND+1][mouseX / SAND-1] = true;
+            map[mouseY / SAND][mouseX / SAND] =
+                map[mouseY / SAND + 1][mouseX / SAND + 1] =
+                map[mouseY / SAND + 1][mouseX / SAND - 1] = true;
             std::cout << mouseX / SAND << " " << mouseY / SAND << std::endl;
         }
 
@@ -74,10 +74,10 @@ int main(int argc, char* argv[]) {
                 if (map[i][j] == true)
                 {
                     //check if directly below is occupied
-                    if (!map[i+1][j])
+                    if (!map[i + 1][j])
                     {
-                        
-                        map[i+1][j] = true;
+
+                        map[i + 1][j] = true;
                         map[i][j] = false;
                     }//check if it's free to fall to either left or right and fall randomly if so
                     else if (!map[i + 1][j + 1] && !map[i + 1][j - 1])
@@ -90,9 +90,9 @@ int main(int argc, char* argv[]) {
                         }
                         else
                         {
-                            map[i + 1][j -1] = true;
+                            map[i + 1][j - 1] = true;
                             map[i][j] = false;
-                        
+
                         }
                     }//check if only right is free
                     else if (!map[i + 1][j + 1])
